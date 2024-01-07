@@ -6,7 +6,7 @@ function start() {
     const button = document.querySelector('.button');
 
 
-    function starButton() {
+    function startButton() {
         /*start the pipe's animation*/
         pipe.style.animation = 'pipe-animation 1.5s infinite linear';
         pipe.style.opacity = '1';
@@ -50,7 +50,7 @@ function start() {
         }
     }
 
-    starButton();
+    startButton();
 
     document.addEventListener('keydown', jump); /*make the chareter jump, if you press any key*/
     const loop = setInterval(game_end, 10); /*call "game_end" function every 10ms*/
